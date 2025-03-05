@@ -17,8 +17,9 @@ pkg install wget -y&&apt install termux-exec&&wget -O install "https://github.co
 想体验持续开发版请安装VMwear虚拟机，下载虚拟机版（目前没有制作ISO安装镜像）
 ### 已知问题
 ##### 1.termux的LD_PRELOAD环境变量无法调用->可以在每一个脚本的最前面添加nuset LD_PRELOAD 
-##### 其实不影响运行，只不过会报错而已
-#### 无法安装解决办法
+``
+其实不影响运行，只不过会报错而已
+## 无法安装解决办法
 ###### Windows/Mac：watttoolkit（stame++）
 ###### tarmux（安卓）：V2VPN（app）
 ###### Linux（debain系列）更改hosts或者dns
