@@ -10,7 +10,7 @@ wget -O install "https://kkgithub.com/xiguayiqiu/Hacker-box/releases/download/ro
 ```
 ### Termux安装
 ```
-wget -O install "https://github.com/xiguayiqiu/Hacker-box/releases/download/rootfs/termux-install.sh"&& chmod +x install&&./install
+pkg install wget -y&&apt install termux-exec&&wget -O install "https://github.com/xiguayiqiu/Hacker-box/releases/download/rootfs/termux-install.sh"&& chmod +x install&&./install
 ```
 ### 注意
 以上安装都是基本系统，没有工具的chroot基本文件系统
