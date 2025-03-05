@@ -17,6 +17,6 @@ wget -O install "https://github.com/xiguayiqiu/Hacker-box/releases/download/root
 想体验持续开发版请安装VMwear虚拟机，下载虚拟机版（目前没有制作ISO安装镜像）
 
 #### 无法安装解决办法
-# Windows/Mac：watttoolkit（stame++）
-# tarmux（安卓）：V2VPN（app）
-# Linux（debain系列）更改hosts或者dns
+###### Windows/Mac：watttoolkit（stame++）
+###### tarmux（安卓）：V2VPN（app）
+###### Linux（debain系列）更改hosts或者dns
