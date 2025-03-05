@@ -9,7 +9,7 @@
 wget -O install "https://kkgithub.com/xiguayiqiu/Hacker-box/releases/download/rootfs/install.sh"&&chmod +x install&&./install
 ```
 ### Termux安装
-···
+```
 wget -O install "https://github.com/xiguayiqiu/Hacker-box/releases/download/rootfs/termux-install.sh"&& +x install&&./install
 ```
 ### 注意
