@@ -3,6 +3,8 @@
 本项目是bilibili-游戏科技君弈秋啊(个人开发)
 ### 原因
 本作者是看到除了kali以外没有其他的黑客系统，感到不够新颖所以才自行开发这个黑客系统的（纯属Linux开发练习）
+### VM虚拟机
+(Hacker-box下载链接)[https://www.123912.com/s/rBVcVv-noGjh]
 ### 安装
 通用的amd64架构debain系列（x86_64）
 ```shell
