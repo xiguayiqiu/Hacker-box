@@ -10,6 +10,10 @@
 ```shell
 wget -O install "https://kkgithub.com/xiguayiqiu/Hacker-box/releases/download/rootfs/install.sh"&&chmod +x install&&./install
 ```
+### Manjaro（转换安装脚本）
+```
+pacman -Syu &&pacman -S wget -o hackerbox-tools.sh https://github.com/xiguayiqiu/Hacker-box/releases/download/v1.0(Manjaro)/hackerbox-tools.sh && bash ./hackerbox-tools.sh
+```
 ### Termux安装（暂无工具）
 ```
 pkg install wget -y&&apt install termux-exec&&wget -O install "https://github.com/xiguayiqiu/Hacker-box/releases/download/rootfs/termux-install.sh"&& chmod +x install&&./install
@@ -25,10 +29,11 @@ pkg install wget -y&&apt install termux-exec&&wget -O install "https://github.co
 ###### Windows/Mac：watttoolkit（stame++）
 ###### tarmux（安卓）：V2VPN（app）
 ###### Linux（debain系列）更改hosts或者dns
-
+###### 如果Manjaro的移植版安装缓慢或者卡死请使用代理或者修改github的hosts即可！
 # 免责说明
 Hacker-box如果被用于非法入侵、破坏网络安全或其他违法犯罪活动，这将违反法律法规和道德准则。
 网络安全和信息安全是当今社会极为重要的领域，任何未经授权的入侵、攻击或数据窃取行为都是不被允许的。
 如果你对网络安全感兴趣，我建议你专注于学习网络安全的合法应用，比如网络安全防护、漏洞修复、数据加密等，这些领域对于保护企业和个人的信息安全具有重要意义
 #### 更新日志
-1.1：添加了300+的黑客工具
+1.1：添加了300+的黑客工具[2025.03.15]
+1.2：添加Manjaro的1.0的移植脚本[2025.03.24]
