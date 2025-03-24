@@ -12,7 +12,7 @@ wget -O install "https://kkgithub.com/xiguayiqiu/Hacker-box/releases/download/ro
 ```
 ### Manjaro（转换安装脚本）
 ```
-pacman -Syu &&pacman -S wget -o hackerbox-tools.sh https://github.com/xiguayiqiu/Hacker-box/releases/download/v1.0(Manjaro)/hackerbox-tools.sh && bash ./hackerbox-tools.sh
+pacman -Syu &&pacman -S wget &&wget-o hackerbox-tools.sh https://github.com/xiguayiqiu/Hacker-box/releases/download/v1.0(Manjaro)/hackerbox-tools.sh && bash ./hackerbox-tools.sh
 ```
 ### Termux安装（暂无工具）
 ```
