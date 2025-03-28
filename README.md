@@ -11,8 +11,13 @@
 wget -O install "https://kkgithub.com/xiguayiqiu/Hacker-box/releases/download/rootfs/install.sh"&&chmod +x install&&./install
 ```
 ### Manjaro（转换安装脚本）
+###### 下面的这一条请使用普通用户运行！不然会自动结束安装环境依赖
 ```
-pacman -Syu &&pacman -S wget &&wget-o hackerbox-tools.sh https://github.com/xiguayiqiu/Hacker-box/releases/download/v1.0(Manjaro)/hackerbox-tools.sh && bash ./hackerbox-tools.sh
+pacman -Syu &&pacman -S wget &&wget https://github.com/xiguayiqiu/Hacker-box/releases/download/v1.1/Software_dependency.sh&&./Software_dependency.sh
+```
+###### 这一条是转换命令
+```
+wget https://github.com/xiguayiqiu/Hacker-box/releases/download/v1.1/hackerbox-tools.sh&&./hackerbox-tools.sh
 ```
 ### Termux安装（暂无工具）
 ```
