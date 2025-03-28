@@ -12,6 +12,7 @@ wget -O install "https://kkgithub.com/xiguayiqiu/Hacker-box/releases/download/ro
 ```
 ### Manjaro（转换安装脚本）
 ###### 下面的这一条请使用普通用户运行！不然会自动结束安装环境依赖
+###### 如果python2.7构建多次失败请使用（sudo yaourt -S python2）试试！
 ```
 wget https://github.com/xiguayiqiu/Hacker-box/releases/download/v1.1/Software_dependency.sh&&chmod +x Software_dependency.sh&&./Software_dependency.sh
 ```
